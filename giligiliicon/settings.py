@@ -15,10 +15,10 @@ SPIDER_MODULES = ['giligiliicon.spiders']
 NEWSPIDER_MODULE = 'giligiliicon.spiders'
 
 # start MySQL database configure setting
-MYSQL_HOST = '192.168.1.103'
+MYSQL_HOST = 'localhost'
 MYSQL_DBNAME = 'giligili'
-MYSQL_USERNAME = 'root'
-MYSQL_PASSWD = 'xuran'
+MYSQL_USERNAME = 'xr'
+MYSQL_PASSWD = 'giligili'
 # end of MySQL database configure setting
 
 
@@ -90,7 +90,7 @@ DOWNLOADER_MIDDLEWARES = {
 # for av cover images
 # IMAGES_STORE = '/home/xuran/images/cover'
 # for av actor icon images
-IMAGES_STORE = '/home/xuran/images/icon'
+IMAGES_STORE = '/root/xuran/images/icon'
 CUSTOMIMAGEPIPELINE_IMAGES_URLS_FIELD = 'img'
 CUSTOMIMAGEPIPELINE_IMAGES_RESULT_FIELD = 'img_result'
 # Configure item pipelines
