@@ -12,7 +12,7 @@ handler.setFormatter(formatter)  # 为handler添加formatter
 logger = logging.getLogger('giligili')  # 获取名为giligili的logger
 logger.addHandler(handler)  # 为logger添加handler
 logger.setLevel(logging.INFO)
-r =redis.StrictRedis(host='localhost',port=6379,db=0)
+r =redis.StrictRedis(host='localhost',password='giligilisgay',port=6379)
 
 def parseActorsIconListHelper(response):
     allActor = response.xpath('//*[@id="all"]/div')
@@ -24,6 +24,8 @@ def parseActorsIconListHelper(response):
             print('avactor = ',avactor,'href = ',hrefUrl)
             item['avActor'] = avactor
             item['img'] = hrefUrl
+            if r.sismember("url:crawled:teacher",avactor):
+                continue
             yield item
         except Exception as e:
             logger.error("Exception-->parseActorsIconListHelper:%s ,url = %s" % (e, hrefUrl))

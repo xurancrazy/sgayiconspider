@@ -26,9 +26,10 @@ class CustomIconImagePipeline(ImagesPipeline):
     def item_completed(self, results, item, info):
         image_paths = [x['path'] for ok, x in results if ok]
         if not image_paths:
-            logger.error("Item contains no images,imgurl = %s"%(item['img']))
-            raise DropItem("Item contains no images")
-        item['img_filepath'] = image_paths[0].split('/')[1]
+            item['img_filepath'] = 'imagenotfound-placeholder.png'
+            logger.error("Item contains no images,imgurl = %s , url = %s"%(item['img'],item['url']))
+        else:
+            item['img_filepath'] = image_paths[0].split('/')[1]
         return item
 
 class MySQLStoreIconGiliGiliPipeline(object):
@@ -67,7 +68,7 @@ class MySQLStoreIconGiliGiliPipeline(object):
             if img_filepath:
                 s = 'update teachers set img = \'%s\' where name = \'%s\''%(img_filepath,teacher)
                 conn.execute(s)
-
+        r.sadd("url:crawled:teacher", teacher)
     def handleError(self,failure, item):
         logger.error("database execute error,teacher = %s"%(item['avActor']))
         logger.error(failure)
