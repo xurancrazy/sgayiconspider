@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef15a1b-9c96-4a75-89db-e00fc68217ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligiliicon/pipelines.py" afterPath="$PROJECT_DIR$/giligiliicon/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligiliicon/spiders/parseHelper.py" afterPath="$PROJECT_DIR$/giligiliicon/spiders/parseHelper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligiliicon/settings.py" afterPath="$PROJECT_DIR$/giligiliicon/settings.py" />
     </list>
     <ignored path="giligiliicon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/giligiliicon/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2652">
-              <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
+            <state relative-caret-position="-104">
+              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -40,7 +40,7 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligiliicon/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="312">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#151#164#0" expanded="true" />
@@ -62,7 +62,7 @@
       <file leaf-file-name="iconspider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligiliicon/spiders/iconspider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="208">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="parseHelper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligiliicon/spiders/parseHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
+            <state relative-caret-position="572">
               <caret line="26" column="57" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="57" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligiliicon/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="316">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#192#206#0" expanded="true" />
                 <marker date="1482855992902" expanded="true" signature="2182:2224" ph="select * fro... teachers" />
@@ -146,9 +146,9 @@
         <option value="$PROJECT_DIR$/giligiliicon/spiders/iconspider.py" />
         <option value="$PROJECT_DIR$/giligiliicon/main.py" />
         <option value="$PROJECT_DIR$/giligiliicon/log/giligili.log" />
-        <option value="$PROJECT_DIR$/giligiliicon/settings.py" />
         <option value="$PROJECT_DIR$/giligiliicon/spiders/parseHelper.py" />
         <option value="$PROJECT_DIR$/giligiliicon/pipelines.py" />
+        <option value="$PROJECT_DIR$/giligiliicon/settings.py" />
       </list>
     </option>
   </component>
@@ -528,7 +528,7 @@
     <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30720204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31166348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -979,7 +979,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/giligiliicon/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="312">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#151#164#0" expanded="true" />
@@ -987,17 +987,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giligiliicon/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2652">
-          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/giligiliicon/spiders/iconspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="208">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
@@ -1007,7 +999,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/giligiliicon/spiders/parseHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
+        <state relative-caret-position="572">
           <caret line="26" column="57" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="57" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
@@ -1017,13 +1009,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/giligiliicon/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        <state relative-caret-position="316">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#192#206#0" expanded="true" />
             <marker date="1482855992902" expanded="true" signature="2182:2224" ph="select * fro... teachers" />
             <marker date="1482855992902" expanded="true" signature="2356:2408" ph="update teach... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligiliicon/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

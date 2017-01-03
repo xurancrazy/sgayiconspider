@@ -90,7 +90,7 @@ DOWNLOADER_MIDDLEWARES = {
 # for av cover images
 # IMAGES_STORE = '/home/xuran/images/cover'
 # for av actor icon images
-IMAGES_STORE = '/root/xuran/images/icon'
+IMAGES_STORE = '/root/xuran_0103/images/icon'
 CUSTOMIMAGEPIPELINE_IMAGES_URLS_FIELD = 'img'
 CUSTOMIMAGEPIPELINE_IMAGES_RESULT_FIELD = 'img_result'
 # Configure item pipelines
